@@ -1,0 +1,7 @@
+# pnpm workspace: tells pnpm which folders are packages of this monorepo.
+# Every folder matched here with a package.json becomes linkable by name.
+packages:
+  - "apps/*"
+  - "packages/*"
+allowBuilds:
+  '@parcel/watcher': true
